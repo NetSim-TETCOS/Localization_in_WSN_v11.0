@@ -1,0 +1,38 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  802_15_4.c
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\802_15_4.c(704): warning C4013: 'fn_NetSim_localisation' undefined; assuming extern returning int
+  BackoffCalculation.c
+  BERCalculation.c
+  CCA.c
+  ChangeRadioState.c
+  Localisation.c
+c:\program files\matlab\r2016a\extern\include\mex.h(190): warning C4005: 'printf': macro redefinition
+  c:\users\tetcos-demo system\desktop\localization_v11\include\main.h(212): note: see previous definition of 'printf'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(154): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(168): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(181): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(200): warning C4047: '=': 'SENSOR_DETAILS' differs in levels of indirection from 'SENSOR_DETAILS *'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(201): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(236): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(247): warning C4133: '=': incompatible types - from 'SENSOR_DETAILS *' to 'ANCHOR_DETAILS *'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(252): warning C4047: '=': 'ANCHOR_DETAILS' differs in levels of indirection from 'SENSOR_DETAILS *'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(253): warning C4047: '=': 'ANCHOR_DETAILS' differs in levels of indirection from 'ANCHOR_DETAILS *'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(255): warning C4047: 'function': 'int *' differs in levels of indirection from 'int'
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(255): warning C4024: 'get_device_id': different types for formal and actual parameter 1
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(348): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(362): warning C4028: formal parameter 1 different from declaration
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(364): warning C4018: '<': signed/unsigned mismatch
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(439): warning C4018: '<': signed/unsigned mismatch
+  LocateBackoffBoundary.c
+  SINRCalculation.c
+  SlottedCSMACA.c
+  Superframe.c
+  UnslottedCSMACA.c
+  Generating Code...
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(371): warning C4715: 'get_device_id': not all control paths return a value
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(401): warning C4716: 'fn_NetSim_trilateration_method': must return a value
+c:\users\tetcos-demo system\desktop\localization_v11\zigbee\localisation.c(359): warning C4715: 'fn_NetSim_localisation': not all control paths return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(C:\Users\TETCOS-DEMO SYSTEM\Desktop\Localization_v11\ZigBee\../Dll\ZigBee.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS-DEMO SYSTEM\Desktop\Localization_v11\Dll\libZigBee.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(ZigBee) does not match the Linker's OutputFile property value (libZigBee). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : fatal error LNK1181: cannot open input file 'libeng.lib'
